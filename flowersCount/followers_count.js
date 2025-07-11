@@ -22,5 +22,6 @@ function checkCountValue() {
   function resetCount()
   {
     count = 0;
+    document.getElementById("countDisplay").innerHTML = count;
     alert ("now your Instagram post follower count reset into zero")
   }
